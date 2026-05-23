@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="weather-card">
+
+    <div class="search-box">
+      <input type="text" id="city" placeholder="Enter city">
+      <button onclick="getWeather()">Search</button>
+    </div>
+
+    <div class="weather-info">
+
+      <img id="icon"
+      src="https://openweathermap.org/img/wn/10d@2x.png">
+
+      <div class="details">
+        <h2 id="cityName">Chennai, IN</h2>
+        <h1 id="temp">32°C</h1>
+        <p id="condition">Light Rain</p>
+
+        <div class="extra">
+          Humidity: <span id="humidity">78%</span>
+          |
+          Wind: <span id="wind">12 km/h</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
