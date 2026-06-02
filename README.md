@@ -32,7 +32,7 @@ https://kiruthivasu.github.io/weather-app/
 ## ⚙️ How to Run
 
 1. Clone the repository
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/Kiruthivasu/weather-app.git
 
 2. Open folder
 cd weather-app
